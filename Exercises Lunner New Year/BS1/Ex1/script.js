@@ -4,7 +4,7 @@ function get() {
 if(firstName == ""){
     alert("Please fill your name");
     document.getElementById("name").style.borderColor="red";
-    document.getElementById("error-name").style.display="block";    
+    document.getElementById("error-name").style.display="";    
 }else{
     document.getElementById("name").style.borderColor="";
     document.getElementById("error-name").style.display="";
@@ -12,7 +12,7 @@ if(firstName == ""){
 if(lastname == ""){
     alert("Please fill your last name");
     document.getElementById("lastName").style.borderColor="red";
-    document.getElementById("error-lastName").style.display="block";
+    document.getElementById("error-lastName").style.display="";
     return lastname;
     }else{
         document.getElementById("lastName").style.borderColor="";
